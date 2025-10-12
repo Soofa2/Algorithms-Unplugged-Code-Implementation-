@@ -13,7 +13,7 @@ while left ≤ right do
     return not found*/
 
 
-/*
+
 #include <algorithm>
 #include <iostream>
 using namespace std;
@@ -51,7 +51,7 @@ int main () {
         cout << "Number found and it's " << Key <<endl;
 
 };
-*/
+
 
 
 
