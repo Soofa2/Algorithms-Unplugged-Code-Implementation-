@@ -1,8 +1,60 @@
-# Ignore everything
+# ------------------------------
+# Global Ignore Rules
+# ------------------------------
+
+# Ignore everything by default
 *
 
-# Except source code files
+# ------------------------------
+# Allow important files and folders
+# ------------------------------
+
+# Allow C++ source and header files
 !*.cpp
 !*.h
+
+# Allow markdown documentation
+!*.md
+
+# Allow git configuration files
 !.gitignore
-!README.md
+
+# Allow all directories (so structure is visible)
+!*/
+
+# ------------------------------
+# Common build / compile outputs
+# ------------------------------
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables and binaries
+*.exe
+*.out
+*.app
+a.out
+
+# Build directories
+/build/
+/bin/
+/debug/
+/release/
+/cmake-build*/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
